@@ -1,0 +1,78 @@
+/* CSS for Standardizing Image Sizes in Cards */
+.card-img-custom {
+    width: 100%; /* Adjust the width as necessary */
+    height: 150px; /* Adjust the height as necessary */
+    object-fit: cover; /* This makes sure that the image covers the area, and is cropped to fit */
+}
+/* CSS for Card */
+.card {
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadow effect */
+}
+
+.card:hover {
+    box-shadow: 0 0px 8px 5px rgba(0, 0, 0, 0.075); /* Shadow effect on hover */
+}
+/* CSS for Quick Links Menu */
+.list-group-item {
+    transition: background-color 0.2s ease-in-out; /* Smooth transition for background color */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Slightly darker shade on hover, adjust the color as needed */
+    text-decoration: none; /* Ensures that the underline does not reappear on hover */
+}
+.interactive-section {
+    background-color: #e9ecef;
+  }
+  
+  .interactive-img {
+    width: 100%; /* Adjust the width as necessary */
+    height: 200px; /* Adjust the height as necessary */
+    object-fit: cover; /* Ensures images cover the area uniformly */
+  }
+  
+  .card.interactive-card {
+    background: white;
+    border: none;
+  }
+  
+  .card-body {
+    border-radius: .25rem;
+  }
+ /* Footer Styling */
+footer.bg-dark {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font stack */
+}
+
+footer h4 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle bottom border for titles */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+footer a.text-white {
+    transition: color 0.3s ease;
+}
+footer a.text-white:hover,
+footer a.text-white:focus {
+    color: #a8a8a8; /* Lighten the color on hover */
+    text-decoration: none; /* Remove underline */
+}
+footer .social-icons a {
+    font-size: 1.5rem; /* Larger icons */
+    transition: transform 0.3s ease;
+}
+footer .social-icons a:hover {
+    transform: translateY(-5px); /* Slight raise effect on hover */
+}
+footer .btn-primary {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Subtle shadow for the button */
+}
+@media (max-width: 768px) {
+    footer .col-md-3, footer .col-md-12 {
+        margin-bottom: 20px; /* Space out items on smaller screens */
+    }
+}
+
+
+  
